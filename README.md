@@ -1,6 +1,6 @@
 # Enumerator::Invert
 
-Switch to `invert mode' call by `v` method same as `lazy`
+Switch to \`invert mode' call by `v` method same as `lazy`
 
 ```ruby
 %w(ruby python perl).v.grep(/\Ap/) #=> ["ruby"]
