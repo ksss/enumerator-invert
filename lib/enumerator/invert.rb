@@ -12,10 +12,6 @@ class Enumerator
       @obj = obj
     end
 
-    def each(*args, &block)
-      @obj.each(*args, &block)
-    end
-
     def grep(pat)
       ret = []
       each do |i|
