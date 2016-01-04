@@ -13,13 +13,7 @@ class Enumerator
     end
 
     def grep(pat)
-      ret = []
-      each do |i|
-        if not pat === i
-          ret << i
-        end
-      end
-      ret
+      @obj - @obj.grep(pat)
     end
   end
 end
